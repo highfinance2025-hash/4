@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "version": "1.0",
+    "lastUpdated": "2024-01-20",
+    "language": "fa"
+  },
+  
+  "settings": {
+    "siteName": "healthy-taste",
+    "siteTitle": "healthy-taste | محصولات تازه و اصیل شمال ایران",
+    "siteDescription": "خرید آنلاین ماهی تازه دریای خزر، خاویار اصل، برنج هاشمی گیلان و مرغ محلی ارگانیک",
+    "currency": "تومان",
+    "currencySymbol": "تومان",
+    
+    "contact": {
+      "phone": "۰۹۱۲۳۴۵۶۷۸۹",
+      "phoneRaw": "+989123456789",
+      "email": "info@healthy-taste.ir",
+      "address": "گیلان، رشت، خیابان اصلی",
+      "workingHours": "شنبه تا چهارشنبه: ۸ صبح تا ۸ شب"
+    },
+    
+    "social": {
+      "instagram": "https://instagram.com/healthytaste",
+      "telegram": "https://t.me/healthytaste",
+      "whatsapp": "https://wa.me/989123456789",
+      "twitter": "https://twitter.com/healthytaste_ir"
+    },
+    
+    "shipping": {
+      "cost": 0,
+      "freeThreshold": 500000,
+      "deliveryTime": "۱-۲ روز کاری",
+      "areas": ["رشت", "لاهیجان", "انزلی", "تهران"]
+    },
+    
+    "features": [
+      "تحویل رایگان بالای ۵۰۰ هزار تومان",
+      "تضمین کیفیت و تازگی",
+      "پشتیبانی تلفنی ۲۴ ساعته",
+      "بسته‌بندی بهداشتی و استاندارد",
+      "ارسال در همان روز برای شهر رشت"
+    ]
+  },
+  
+  "categories": [
+    {
+      "id": "fish",
+      "name": "ماهی تازه",
+      "description": "ماهی‌های تازه دریای خزر",
+      "icon": "fas fa-fish",
+      "count": 4,
+      "color": "#2c6e49"
+    },
+    {
+      "id": "caviar",
+      "name": "خاویار",
+      "description": "خاویار طبیعی دریای خزر",
+      "icon": "fas fa-gem",
+      "count": 2,
+      "color": "#1e5f74"
+    },
+    {
+      "id": "rice",
+      "name": "برنج شمال",
+      "description": "برنج هاشمی و طارم گیلان",
+      "icon": "fas fa-seedling",
+      "count": 3,
+      "color": "#8b5a2b"
+    },
+    {
+      "id": "chicken",
+      "name": "مرغ محلی",
+      "description": "مرغ ارگانیک شمال ایران",
+      "icon": "fas fa-drumstick-bite",
+      "count": 2,
+      "color": "#e67e22"
+    },
+    {
+      "id": "other",
+      "name": "سایر محصولات",
+      "description": "دیگر محصولات شمال",
+      "icon": "fas fa-apple-alt",
+      "count": 1,
+      "color": "#6a4c93"
+    }
+  ],
+  
+  "products": [
+    {
+      "id": 1,
+      "name": "ماهی قزل‌آلای تازه دریای خزر",
+      "description": "صید تازه روز از آب‌های پاک دریای خزر، بسته‌بندی بهداشتی تحت خلاء",
+      "shortDescription": "ماهی تازه صید روز",
+      "price": "۱۸۵,۰۰۰",
+      "priceRaw": 185000,
+      "originalPrice": "۲۱۰,۰۰۰",
+      "discount": 12,
+      "image": "assets/images/products/fish-400.jpg",
+      "category": "fish",
+      "categoryName": "ماهی تازه",
+      "tags": ["تازه", "دریایی", "ارگانیک", "صید روز"],
+      "rating": 4.8,
+      "reviews": 124,
+      "inStock": true,
+      "stockCount": 25,
+      "weight": "۱ کیلوگرم",
+      "unit": "کیلوگرم",
+      
+      "features": [
+        "بدون مواد نگهدارنده",
+        "بسته‌بندی تحت خلاء",
+        "ارسال سریع در ۲ ساعت",
+        "ضمانت تازگی"
+      ],
+      
+      "details": {
+        "origin": "دریای خزر - منطقه انزلی",
+        "fishType": "قزل‌آلا",
+        "catchDate": "max 24 hours",
+        "packaging": "بسته‌بندی تحت خلاء",
+        "shelfLife": "۳ روز در یخچال",
+        "delivery": "ارسال در همان روز برای رشت"
+      },
+      
+      "nutrition": {
+        "calories": "۲۰۸ کالری",
+        "protein": "۲۰ گرم",
+        "fat": "۱۳ گرم",
+        "omega3": "بسیار بالا"
+      }
+    },
+    
+    {
+      "id": 2,
+      "name": "خاویار طبیعی دریای خزر",
+      "description": "خاویار درجه یک بلوگا از بهترین مزارع پرورش ماهی شمال ایران، بسته‌بندی شیشه‌ای استریل",
+      "shortDescription": "خاویار درجه یک بلوگا",
+      "price": "۴۵۰,۰۰۰",
+      "priceRaw": 450000,
+      "originalPrice": "۵۲۰,۰۰۰",
+      "discount": 14,
+      "image": "assets/images/products/caviar-400.jpg",
+      "category": "caviar",
+      "categoryName": "خاویار",
+      "tags": ["لوکس", "طبیعی", "درجه یک", "بلوگا"],
+      "rating": 4.9,
+      "reviews": 89,
+      "inStock": true,
+      "stockCount": 18,
+      "weight": "۱۰۰ گرم",
+      "unit": "گرم",
+      
+      "features": [
+        "طبیعی ۱۰۰٪",
+        "بسته‌بندی شیشه‌ای استریل",
+        "گواهی اصالت",
+        "مناسب هدیه"
+      ],
+      
+      "details": {
+        "type": "بلوگا",
+        "grade": "درجه یک (Grade A)",
+        "age": "۱۵ سال",
+        "packaging": "شیشه‌ای استریل",
+        "storage": "نگهداری در یخچال ۲-۴ درجه",
+        "expiry": "۱۲ ماه"
+      },
+      
+      "serving": {
+        "suggestion": "با نان تست یا بلینی",
+        "temperature": "سرد سرو شود",
+        "garnish": "پیازچه ریز شده"
+      }
+    },
+    
+    {
+      "id": 3,
+      "name": "برنج هاشمی ممتاز گیلان",
+      "description": "برنج طارم هاشمی با عطر و طعم بی‌نظیر، کشت ارگانیک در شالیزارهای گیلان",
+      "shortDescription": "برنج هاشمی ارگانیک",
+      "price": "۲۸۰,۰۰۰",
+      "priceRaw": 280000,
+      "originalPrice": "۳۲۰,۰۰۰",
+      "discount": 13,
+      "image": "assets/images/products/rice-400.jpg",
+      "category": "rice",
+      "categoryName": "برنج شمال",
+      "tags": ["هاشمی", "ارگانیک", "عطری", "طارم"],
+      "rating": 4.7,
+      "reviews": 215,
+      "inStock": true,
+      "stockCount": 42,
+      "weight": "۵ کیلوگرم",
+      "unit": "کیلوگرم",
+      
+      "features": [
+        "کشت ارگانیک",
+        "بدون مواد شیمیایی",
+        "جداسازی دستی",
+        "عطر و طعم بی‌نظیر"
+      ],
+      
+      "details": {
+        "variety": "طارم هاشمی",
+        "harvestYear": "۱۴۰۲",
+        "region": "گیلان - لاهیجان",
+        "cookingTime": "۴۵ دقیقه",
+        "waterRatio": "۱ به ۲.۵"
+      },
+      
+      "cooking": {
+        "wash": "۳ بار شسته شود",
+        "soak": "۲ ساعت خیس بخورد",
+        "steam": "۳۰ دقیقه دم بکشد"
+      }
+    },
+    
+    {
+      "id": 4,
+      "name": "مرغ محلی ارگانیک شمال",
+      "description": "مرغ پرورش یافته در مزارع طبیعی گیلان، تغذیه شده با ذرت و گندم طبیعی، بدون آنتی‌بیوتیک",
+      "shortDescription": "مرغ محلی بدون هورمون",
+      "price": "۱۵۵,۰۰۰",
+      "priceRaw": 155000,
+      "originalPrice": "۱۸۰,۰۰۰",
+      "discount": 14,
+      "image": "assets/images/products/chicken-400.jpg",
+      "category": "chicken",
+      "categoryName": "مرغ محلی",
+      "tags": ["محلی", "ارگانیک", "طبیعی", "بدون هورمون"],
+      "rating": 4.6,
+      "reviews": 178,
+      "inStock": true,
+      "stockCount": 30,
+      "weight": "۱.۵ کیلوگرم",
+      "unit": "کیلوگرم",
+      
+      "features": [
+        "پرورش آزاد",
+        "بدون هورمون",
+        "تغذیه طبیعی",
+        "پروتئین بالا"
+      ],
+      
+      "details": {
+        "breed": "مرغ محلی (رنگی)",
+        "age": "۹۰ روز",
+        "feed": "ذرت و گندم طبیعی",
+        "processing": "شرایط بهداشتی",
+        "storage": "یخچال ۳ روز، فریزر ۳ ماه"
+      },
+      
+      "nutrition": {
+        "calories": "۲۳۹ کالری",
+        "protein": "۲۷ گرم",
+        "fat": "۱۴ گرم",
+        "cholesterol": "پایین"
+      }
+    },
+    
+    {
+      "id": 5,
+      "name": "زیتون رودبار درجه یک",
+      "description": "زیتون تازه چیده شده از باغات رودبار، شور مناسب، روغن طبیعی",
+      "shortDescription": "زیتون تازه رودبار",
+      "price": "۷۵,۰۰۰",
+      "priceRaw": 75000,
+      "originalPrice": "۹۰,۰۰۰",
+      "discount": 17,
+      "image": "assets/images/products/olive-400.jpg",
+      "category": "other",
+      "categoryName": "سایر محصولات",
+      "tags": ["زیتون", "رودبار", "طبیعی", "شور"],
+      "rating": 4.5,
+      "reviews": 92,
+      "inStock": true,
+      "stockCount": 56,
+      "weight": "۵۰۰ گرم",
+      "unit": "گرم",
+      
+      "features": [
+        "تازه چیده",
+        "شور مناسب",
+        "طعم طبیعی",
+        "روغن طبیعی"
+      ],
+      
+      "details": {
+        "variety": "زیتون سبز",
+        "region": "رودبار",
+        "harvest": "مهر ماه",
+        "packaging": "شیشه‌ای",
+        "shelfLife": "۶ ماه",
+        "ingredients": "زیتون، آب، نمک، سرکه"
+      }
+    }
+  ],
+  
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": "user_001",
+      "userName": "محمد رضایی",
+      "userAvatar": "https://i.pravatar.cc/150?img=1",
+      "rating": 5,
+      "comment": "ماهی تازه و باکیفیت بود. بسته‌بندی عالی و ارسال سریع. حتما دوباره خرید می‌کنم.",
+      "date": "۱۴۰۲/۱۱/۱۵",
+      "verified": true,
+      "helpful": 24
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "userId": "user_002",
+      "userName": "فاطمه محمدی",
+      "userAvatar": "https://i.pravatar.cc/150?img=2",
+      "rating": 4,
+      "comment": "خاویار خیلی خوشمزه بود، طعم واقعی داشت. ولی بسته‌بندی می‌تونست بهتر باشه.",
+      "date": "۱۴۰۲/۱۱/۱۰",
+      "verified": true,
+      "helpful": 18
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "userId": "user_003",
+      "userName": "علی کریمی",
+      "userAvatar": "https://i.pravatar.cc/150?img=3",
+      "rating": 5,
+      "comment": "برنج عالی، عطر و طعم واقعی برنج شمال رو داشت. برای مهمانی عید عالیه.",
+      "date": "۱۴۰۲/۱۱/۰۵",
+      "verified": true,
+      "helpful": 32
+    }
+  ],
+  
+  "faqs": [
+    {
+      "id": 1,
+      "question": "زمان تحویل سفارش چقدر است؟",
+      "answer": "برای شهر رشت: ۲-۴ ساعت، برای سایر شهرهای گیلان: ۱ روز کاری، برای سایر استان‌ها: ۲-۳ روز کاری."
+    },
+    {
+      "id": 2,
+      "question": "آیا امکان پرداخت در محل وجود دارد؟",
+      "answer": "بله، برای کلیه سفارش‌ها امکان پرداخت در محل فراهم است."
+    },
+    {
+      "id": 3,
+      "question": "چگونه از تازگی محصولات مطمئن شوم؟",
+      "answer": "کلیه محصولات ما دارای تاریخ تولید و انقضا هستند و با سیستم‌های خنک‌کننده حمل می‌شوند."
+    }
+  ]
+},
+  ],
+  
+  "seo": {
+    "defaultTitle": "healthy-taste | محصولات تازه و اصیل شمال ایران",
+    "defaultDescription": "خرید آنلاین ماهی تازه دریای خزر، خاویار اصل، برنج هاشمی گیلان و مرغ محلی ارگانیک",
+    "defaultKeywords": "ماهی شمال, خاویار, برنج گیلان, غذای سالم, محصولات ارگانیک",
+    "ogImage": "/assets/images/og-image.jpg",
+    "twitterHandle": "@healthytaste_ir"
+  }
+}

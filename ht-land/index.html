@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXX');
+</script>
+   <!-- ===== META BASIC ===== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2c6e49">
+    
+    <!-- ===== SEO META ===== -->
+    <title>healthy-taste | محصولات تازه و اصیل شمال ایران</title>
+    <meta name="description" content="خرید آنلاین ماهی تازه دریای خزر، خاویار اصل، برنج هاشمی گیلان و مرغ محلی ارگانیک. ارسال رایگان به سراسر ایران">
+    <meta name="keywords" content="ماهی شمال, خاویار, برنج گیلان, غذای سالم, محصولات ارگانیک">
+    <meta name="author" content="healthy-taste">
+    <meta name="robots" content="index, follow">
+    
+    <!-- ===== OPEN GRAPH ===== -->
+    <meta property="og:title" content="healthy-taste | طعم واقعی سلامت از شمال ایران">
+    <meta property="og:description" content="تازه‌ترین محصولات شمال ایران مستقیماً به دست شما">
+    <meta property="og:image" content="/assets/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://healthy-taste.ir">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="healthy-taste">
+    <meta property="og:locale" content="fa_IR">
+    
+    <!-- ===== TWITTER CARDS ===== -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="healthy-taste | محصولات تازه شمال">
+    <meta name="twitter:description" content="خرید آنلاین محصولات سالم شمال ایران">
+    <meta name="twitter:image" content="/assets/images/og-image.jpg">
+    
+    <!-- ===== PWA ===== -->
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" href="/assets/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/images/logo.png">
+    
+    <!-- ===== DNS PREFETCH ===== -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- ===== CSS & FONTS ===== -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          crossorigin="anonymous">
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" 
+          href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap">
+    
+    <!-- Main CSS (Lazy Loaded) -->
+    <link rel="preload" href="/assets/css/style.css" as="style" 
+          onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/assets/css/style.css"></noscript>
+    
+    <!-- ===== CRITICAL CSS INLINE ===== -->
+    <style>
+        /* CRITICAL CSS - Above the fold فقط */
+        :root {
+            --primary: #2c6e49; --secondary: #4c956c; --accent: #f97316;
+            --light: #f8f9fa; --dark: #1a1a1a; --text: #333; --bg: #fafafa;
+            --radius: 16px; --transition: all 0.3s ease;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: system-ui, -apple-system, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.6;
+            overflow-x: hidden;
+        }
+        header { 
+            position: fixed; top: 0; width: 100%; 
+            background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);
+            z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .hero { 
+            min-height: 80vh; display: flex; align-items: center;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white; padding-top: 80px;
+        }
+        .skip-link {
+            position: absolute; top: -40px; left: 0;
+            background: var(--accent); color: white; padding: 8px 16px;
+            text-decoration: none; z-index: 9999;
+        }
+        .skip-link:focus { top: 10px; }
+    </style>
+</head>
+<body>
+    <!-- ===== SKIP LINK (Accessibility) ===== -->
+    <a href="#main-content" class="skip-link" id="skip-link">
+        پرش به محتوای اصلی
+    </a>
+    
+    <!-- ===== HEADER ===== -->
+    <header role="banner">
+        <div class="container header-container">
+            <a href="/" class="logo" aria-label="healthy-taste - بازگشت به خانه">
+                <img src="/assets/images/logo.png" alt="لوگوی healthy-taste" width="40" height="40">
+                healthy-taste
+            </a>
+            
+            <!-- Search Box -->
+            <div class="search-container">
+                <input type="search" 
+                       class="search-input" 
+                       placeholder="جستجوی محصولات..."
+                       aria-label="جستجوی محصولات"
+                       id="searchInput">
+            </div>
+            
+            <!-- Desktop Icons -->
+            <div class="nav-actions">
+                <button class="nav-icon wishlist-btn" aria-label="علاقه‌مندی‌ها">
+                    <i class="fas fa-heart"></i>
+                    <span class="badge wishlist-count">0</span>
+                </button>
+                <button class="nav-icon cart-btn" aria-label="سبد خرید">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge cart-count">0</span>
+                </button>
+                <button class="mobile-menu-btn" id="openMenu" aria-label="باز کردن منو">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- ===== MOBILE MENU OVERLAY ===== -->
+    <div class="mobile-menu-overlay" id="menuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true">
+        <!-- محتوای منو -->
+    </div>
+    
+    <!-- ===== MAIN CONTENT ===== -->
+    <main id="main-content" role="main" tabindex="-1">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>طعم واقعی سلامت، از دل شمال ایران</h1>
+                <p>ماهی تازه، خاویار اصل، برنج هاشمی، مرغ محلی</p>
+            </div>
+        </section>
+        
+        <!-- Products Grid -->
+        <section class="products-section" id="products">
+            <div class="container">
+                <h2>محصولات ویژه</h2>
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">همه</button>
+                    <button class="filter-btn" data-filter="fish">ماهی</button>
+                    <button class="filter-btn" data-filter="caviar">خاویار</button>
+                    <button class="filter-btn" data-filter="rice">برنج</button>
+                    <button class="filter-btn" data-filter="chicken">مرغ</button>
+                </div>
+                <div class="products-grid" id="productsGrid">
+                    <!-- محصولات با JS رندر می‌شوند -->
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- ===== PRODUCT MODAL ===== -->
+    <div class="product-modal" id="productModal" role="dialog" aria-modal="true" 
+         aria-labelledby="modalTitle" aria-describedby="modalDesc" hidden>
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal" aria-label="بستن">
+                &times;
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- محتوای داینامیک -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- ===== BACK TO TOP BUTTON ===== -->
+    <button class="back-to-top" id="backToTop" aria-label="بازگشت به بالا">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    
+    <!-- ===== WHATSAPP FLOAT ===== -->
+    <a href="https://wa.me/989123456789" 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener"
+       aria-label="پشتیبانی واتس‌اپ">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <!-- ===== SCRIPTS ===== -->
+    <!-- JavaScript Modules -->
+    <script type="module" src="/assets/js/app.js"></script>
+    
+    <!-- Fallback برای مرورگرهای قدیمی -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
+</body>
+</html>
